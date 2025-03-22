@@ -2,14 +2,17 @@
 api/node_modules/
 api/dist/
 api/.env
+api/.idea
 
 # React (Frontend)
 fe/node_modules/
 fe/build/
+fe/.idea
 
 # React Native (Mobile)
 app/node_modules/
 app/.expo/
 app/.env
+app/.idea
 
 .idea
