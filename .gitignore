@@ -5,14 +5,65 @@ api/.env
 api/.idea
 
 # React (Frontend)
-fe/node_modules/
-fe/build/
+# Logs
+fe/logs
+fe/*.log
+fe/npm-debug.log*
+fe/yarn-debug.log*
+fe/yarn-error.log*
+fe/pnpm-debug.log*
+fe/lerna-debug.log*
+
+# Node modules and build outputs
+fe/node_modules
+fe/dist
+fe/dist-ssr
+fe/*.local
+
+# Editor directories and files
+fe/.vscode/*
+!fe/.vscode/extensions.json
 fe/.idea
+fe/.DS_Store
+fe/*.suo
+fe/*.ntvs*
+fe/*.njsproj
+fe/*.sln
+fe/*.sw?
 
 # React Native (Mobile)
 app/node_modules/
 app/.expo/
 app/.env
 app/.idea
+app/dist/
+app/web-build/
+app/expo-env.d.ts
+
+# Native
+app/*.orig.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+
+# Metro
+app/.metro-health-check*
+
+# Debug
+app/npm-debug.*
+app/yarn-debug.*
+app/yarn-error.*
+
+# macOS
+app/.DS_Store
+app/*.pem
+
+# Local env files
+app/.env*.local
+
+# TypeScript
+app/*.tsbuildinfo
 
 .idea
