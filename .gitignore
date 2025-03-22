@@ -1,0 +1,15 @@
+# Node.js
+api/node_modules/
+api/dist/
+api/.env
+
+# React (Frontend)
+fe/node_modules/
+fe/build/
+
+# React Native (Mobile)
+app/node_modules/
+app/.expo/
+app/.env
+
+.idea
